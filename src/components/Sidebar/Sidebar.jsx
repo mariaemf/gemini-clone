@@ -16,7 +16,7 @@ function Sidebar() {
             Recent
           </p>
           <div className="recent-entry">
-            <img src={assets.gemini_icon} alt="" />
+            <img src={assets.message_icon} alt="" />
           <p>What is react...</p>
           </div>
         </div>
