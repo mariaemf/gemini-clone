@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -8,6 +9,13 @@
 // reiniciando css
 
 #root {
-  min-height: 100vf;
+  min-height: 100vh;
   display: flex;
+  flex-direction: row;
+}
+
+.initial {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
 }
